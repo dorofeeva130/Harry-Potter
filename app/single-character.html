@@ -1,28 +1,27 @@
-<!-- characters.html -->
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Персонажи Harry Potter</title>
+    <title>Персонаж Harry Potter</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Персонажи Harry Potter</h1>
+        <h1 id="characterName">Имя Персонажа</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Главная</a></li>
                 <li><a href="archive-character.html">Архив Персонажей</a></li>
+                <li><a href="index.html">Главная</a></li>
                 <li><a href="spells.html">Заклинания</a></li>
                 <li><a href="quiz.html">Викторина</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <input type="text" id="search" placeholder="Поиск по имени...">
-        <ul id="characterList"></ul>
+        <img id="characterImage" alt="Изображение персонажа" />
+        <p id="characterDescription"></p>
     </main>
-    <script src="characters.js"></script>
+    <script src="single-character.js"></script>
 </body>
 </html>

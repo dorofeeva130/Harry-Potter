@@ -26,10 +26,23 @@ h1 {
     color: #FFCC00; /* Цвет, ассоциируемый с Гарри Поттером */
 }
 
-.button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 15px 20px;
-    border: none;
-    cursor: pointer;
+#search {
+    margin: 20px 0;
+    padding: 10px;
+    width: 100%;
 }
+
+.character {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.character img {
+    max-width: 100px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
